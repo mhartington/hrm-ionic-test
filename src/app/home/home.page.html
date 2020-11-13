@@ -1,20 +1,16 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="ion-padding">
+  <p>HMR not preserving inputs with Ionic.</p>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ol>
+    <li>Serve with HMR enabled: <code>ng serve --hmr -o</code></li>
+    <li>Type in the text input in the top left</li>
+    <li>Edit <code>home.page.html</code></li>
+  </ol>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <p>Adding more text</p>
+
+  <ion-checkbox></ion-checkbox>
+
+  <ion-range></ion-range>
+  <p>Making some changes</p>
 </ion-content>
